@@ -49,6 +49,7 @@ video {
 .tools {
   display: flex;
   flex-direction: row;
+  gap: 0px;
 }
 
 .language,
