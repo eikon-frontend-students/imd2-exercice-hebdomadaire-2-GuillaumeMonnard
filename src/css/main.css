@@ -4,6 +4,14 @@
   padding: 0;
 }
 
+body {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px; /* 120% */
+  text-transform: uppercase;
+}
+
 a {
   color: inherit;
 }
@@ -11,4 +19,24 @@ a {
 img,
 video {
   display: block;
+}
+
+.topbar {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.tools {
+  display: flex;
+  flex-direction: row;
 }
